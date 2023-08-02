@@ -1,0 +1,150 @@
+.logo{
+    height: 10vh;
+    width: 10vw;
+}
+
+main {
+    background-color:#FAA809;
+}
+
+h1{
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+h2{
+    color: black;
+    font-size: 1.2vw;
+}
+
+p{
+    margin-top: 5%;
+    color: black;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chibi{
+    width: 16vw;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.cartes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.card{
+    background-color: #FAA809;
+    border: none;
+}
+
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 3%;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+    
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+  .logo1{
+    height: 10vh;
+    width: 10vw;
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    .logo{
+        height: 11vh;
+        width: 30vw;
+    }
+    .cartes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .info{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .chibi{
+        width: 30vw;
+    }
+    h1{
+        font-size: 6vw;
+    }
+    
+    h2{
+        font-size: 2.9vw;
+    }
+    p{
+        font-size: 2.4vw;
+    }
+    h3{
+        font-size: 3.5vw;
+    }
+    h4{
+        font-size: 3vw;
+    }
+  }
